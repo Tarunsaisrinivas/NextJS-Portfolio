@@ -32,7 +32,7 @@ export function Contact() {
     }
   };
   return (
-    <div className="bg-white dark:bg-black">
+    <div id="contact" className="bg-white dark:bg-black">
       <h1 className="text-center mt-0  text-2xl font-mono font-bold mb-4">CONTACT</h1>
       <div className="max-w-md w-full py-8 mb-5 mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">

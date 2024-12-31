@@ -34,7 +34,7 @@ const SkillCard = ({ img, name }) => {
 export function SkillsMarquee() {
   return (
     <>
-      <h1 className="text-center mt-0  text-2xl font-mono font-bold mb-4">SKILLS</h1>
+      <h1 id="skills" className="text-center mt-0  text-2xl font-mono font-bold mb-4">SKILLS</h1>
       <div className="relative flex h-[300px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:15s]">
           {firstRow.map((skill) => (

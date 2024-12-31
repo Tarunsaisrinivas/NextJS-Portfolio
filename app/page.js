@@ -5,9 +5,10 @@ import HeroSection from "./pages/HeroSection";
 import { SkillsMarquee } from "./pages/Skills";
 import Projects from "./pages/Projects";
 import { Contact } from "./pages/Contact";
-
+import { FloatButton } from 'antd';
 const page = () => {
   return (
+    <>
     <div>
       <Navbar />
       <HeroSection />
@@ -16,6 +17,8 @@ const page = () => {
       {/* <Globe /> */}
       <Contact  />
     </div>
+    <FloatButton.BackTop />
+    </>
   );
 };
 

@@ -27,19 +27,19 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href="#"
+          href="#projects"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
         >
           Projects
         </a>
         <a
-          href="#"
+          href="#skills"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
         >
           Skills
         </a>
         <a
-          href="#"
+          href="#contact"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
         >
           Contact
@@ -67,19 +67,19 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href="#"
+          href="#projects"
           className="w-full text-lg font-semibold text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition duration-200 text-center"
         >
           Projects
         </a>
         <a
-          href="#"
+          href="#skills"
           className="w-full text-lg font-semibold text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition duration-200 text-center"
         >
           Skills
         </a>
         <a
-          href="#"
+          href="#contact"
           className="w-full text-lg font-semibold text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition duration-200 text-center"
         >
           Contact

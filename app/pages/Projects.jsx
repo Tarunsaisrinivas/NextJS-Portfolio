@@ -45,7 +45,7 @@ export default function Projects() {
   const [selectedItem, setSelectedItem] = useState(items[0]);
 
   return (
-    <div className="flex flex-col dark:bg-black bg-white gap-8 p-4">
+    <div id="projects" className="flex flex-col dark:bg-black bg-white gap-8 p-4">
       <h1 className="text-center mt-0 text-2xl font-mono font-bold mb-4">PROJECTS</h1>
       {/* Projects Component */}
       <div className="flex flex-col md:flex-row gap-4">
