@@ -54,6 +54,7 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 w-full  flex md:h-auto  justify-center md:justify-end">
         <Globe  />
+     
       </div>
     </div>
   );
