@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
     <div>
-    <SplashCursor />
+    {/* <SplashCursor /> */}
       <Navbar />
       <HeroSection />
       <SkillsMarquee />
