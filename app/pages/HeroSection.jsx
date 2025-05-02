@@ -45,7 +45,7 @@ const HeroSection = () => {
               </ShimmerButton>
             </a>
             <a
-              href="https://drive.google.com/file/d/1VpmExF5jBbhZ1Gz1tCb4NPEH2g8r6EZD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JJDp_9ngX_Htv4Xy-q6RHAFIj3fcC3r5/view?usp=sharing"
               target="_blank"
             >
               <ShimmerButton className="shadow-2xl flex items-center">
