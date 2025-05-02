@@ -21,7 +21,7 @@ const Navbar = () => {
       {/* Centered Navigation Links with Background */}
       <div className="hidden md:flex items-center bg-black dark:bg-white  rounded-full p-1 space-x-6">
         <a
-          href="#"
+          href="/"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
         >
           Home

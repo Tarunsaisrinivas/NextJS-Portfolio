@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Portfolio v1",
+    "date": "Dec 2024",
+    "description": "A portfolio website showcasing my skills, projects, and achievements in web and mobile app development.",
+    "techStack": [
+      "Next.js",
+      "JavaScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "MongoDB"
+    ],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Next-js-Portfolio",
+    "liveDemo": "https://tarunsai-srinivas.vercel.app/",
+    "image": "/assets/portfolioV1.png"
+  },
+  {
+    "title": "HackOverFlow2k24 Website ",
+    "date": "Oct 2024",
+    "description": "Developed a responsive event website for HackOverFlow2k24 using React.js and Tailwind CSS, enabling smooth promotion and participant registration.",
+    "techStack": ["React js", "Tailwind CSS","Ant Design"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/hackoverflow",
+    "liveDemo": "https://hackover-flow.vercel.app/",
+    "image": "/assets/hackoverflow.png"
+  },
+  {
+    "title": "Code Combat Exam Portal",
+    "date": "Mar 2024",
+    "description": "Built a scalable quiz platform for the NIPUNA event, supporting 300+ registrations. Handled over 200 concurrent users with smooth performance and reliability.",
+    "techStack": ["Next.js", "Tailwind CSS", "Ant Design", "MongoDB"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/codecombat-WEB12",
+    "liveDemo": "https://codecombat-web12.vercel.app",
+    "image": "/assets/codecombat.png"
+  },
+  {
+    "title": "Expenses Tracker App",
+    "date": "Oct 2024",
+    "description": "The Expenses Tracker App helps users monitor and manage spending with a clean, user-friendly interface. It offers categorized tracking and insights to support smarter financial decisions.",
+    "techStack": ["React Native", "Firebase"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Expenses-Tracker-App",
+    "liveDemo": "https://editor.example.com",
+    "image": "/assets/expense.png?w=150&h=150"
+  },
+  {
+    "title": "Zebronics Watch Landing Page",
+    "date": "Aug 2023",
+    "description": "Created a landing page for Zebronics Watch using HTML, CSS, and JavaScript, showcasing product features with an interactive and responsive design.",
+    "techStack": ["HTML","CSS","JavaScript"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/CODSOFT/tree/main/LandingPage",
+    "liveDemo": "https://tarunsaisrinivas.github.io/CODSOFT/LandingPage/",
+    "image": "/assets/zebronics.png"
+  },
+  {
+    "title": "Netflix UI Clone",
+    "date": "Sep 2023",
+    "description": "Built a responsive Netflix UI clone using HTML, CSS, and JavaScript, featuring interactive elements, sleek layout, smooth animations, and dynamic responsiveness.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Netflix/tree/main/Netflix",
+    "liveDemo": "https://netflix-jet-eight.vercel.app/",
+    "image": "/assets/Netflix.webp"
+  },
+  {
+    "title": "Temperature Converter",
+    "date": "Sep 2023",
+    "description": "A simple, functional web app that converts temperatures between Celsius, Fahrenheit, and Kelvin.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/TEMPERATURE_CONVERTER/tree/main/temperature",
+    "liveDemo": "https://tarunsaisrinivas.github.io/TEMPERATURE_CONVERTER/temperature/",
+    "image": "/assets/Temperature.webp"
+  },
+  {
+    "title": "SRKRCSE Department Website",
+    "date": "Aug 2023",
+    "description": "A departmental website for SRKR CSE, for accessing Lecture Notes, Contact details, Events, News , Timetables, Syllabus and so on.",
+    "techStack": ["HTML", "CSS", "JavaScript","Bootstrap"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/SRKR-CSE",
+    "liveDemo": "https://srkrcse.com/",
+    "image": "/assets/Srkrcse.webp"
+  }
+]

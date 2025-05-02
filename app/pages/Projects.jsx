@@ -8,6 +8,7 @@ import { IconBrandGithub } from "@tabler/icons-react";
 import ShimmerButton from "@/components/ui/shimmer-button";
 import { FaGithub } from "react-icons/fa";
 import { PiShareBold } from "react-icons/pi";
+import Link from "next/link";
 
 const items = [
   {
@@ -45,8 +46,13 @@ export default function Projects() {
   const [selectedItem, setSelectedItem] = useState(items[0]);
 
   return (
-    <div id="projects" className="flex flex-col dark:bg-black bg-white gap-8 p-4">
-      <h1 className="text-center mt-0 text-2xl font-mono font-bold mb-4">PROJECTS</h1>
+    <div
+      id="projects"
+      className="flex flex-col dark:bg-black bg-white gap-8 p-4"
+    >
+      <h1 className="text-center mt-0 text-2xl font-mono font-bold mb-4">
+        PROJECTS
+      </h1>
       {/* Projects Component */}
       <div className="flex flex-col md:flex-row gap-4">
         {/* Left Side */}
@@ -65,38 +71,42 @@ export default function Projects() {
                 <h3 className="text-lg font-semibold ">{item.title}</h3>
                 <p className="text-sm ">{item.description}</p>
                 <div className="flex gap-5">
-                <a href={item.github}>
-                <ShimmerButton className="shadow-2xl flex items-center mb-2 mt-2 md:mb-0">
-                  <FaGithub className="dark:text-white mr-2" />{" "}
-                  {/* GitHub Icon */}
-                  <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white">
-                     Github
-                  </span>
-                </ShimmerButton>
-                </a>
-                <a href={item.live}>
-                <ShimmerButton className="shadow-2xl flex items-center mb-2 mt-2 md:mb-0">
-                  < PiShareBold className="dark:text-white mr-2" />{" "}
-                 
-                  <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white">
-                     Live Preview
-                  </span>
-                </ShimmerButton>
-                </a>
+                  <a href={item.github}>
+                    <ShimmerButton className="shadow-2xl flex items-center mb-2 mt-2 md:mb-0">
+                      <FaGithub className="dark:text-white mr-2" />{" "}
+                      {/* GitHub Icon */}
+                      <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white">
+                        Github
+                      </span>
+                    </ShimmerButton>
+                  </a>
+                  <a href={item.live}>
+                    <ShimmerButton className="shadow-2xl flex items-center mb-2 mt-2 md:mb-0">
+                      <PiShareBold className="dark:text-white mr-2" />{" "}
+                      <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white">
+                        Live Preview
+                      </span>
+                    </ShimmerButton>
+                  </a>
                 </div>
               </li>
             ))}
+            <Link href="/projects">
+              <ShimmerButton className="shadow-2xl border border-white flex items-center mb-2 mt-2 md:mb-0">
+                <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white">
+                  View More
+                </span>
+              </ShimmerButton>
+            </Link>
           </ul>
         </div>
 
         {/* Right Side */}
         <div className="w-full md:w-2/3 flex items-center md:h-auto h-[250px]  justify-center p-4 rounded-lg shadow relative">
-        
           {selectedItem.id === 1 && (
             <div className="absolute inset-0 w-full h-full flex items-center justify-center">
-              <Iphone15Pro 
-                src={selectedItem.image} 
-             
+              <Iphone15Pro
+                src={selectedItem.image}
                 className="w-full h-full min-h-full max-h-full object-cover"
               />
             </div>
