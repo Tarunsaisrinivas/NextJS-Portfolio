@@ -61,7 +61,7 @@ const Navbar = () => {
         } overflow-hidden flex flex-col items-center justify-center space-y-4 px-6 py-4`}
       >
         <a
-          href="#"
+          href="/"
           className="w-full text-lg font-semibold text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition duration-200 text-center"
         >
           Home
