@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className="mt-6 flex flex-col md:flex-row md:space-x-4">
           <div className="flex flex-row md:flex-row md:space-x-4 mt-4">
             <a href="https://github.com/Tarunsaisrinivas">
-              <ShimmerButton className="shadow-2xl flex items-center mb-2 md:mb-0">
+              <ShimmerButton className="shadow-2xl flex items-center mb-2 -ml-5 md:mb-0">
                 <FaGithub className="dark:text-white mr-2" />{" "}
                 {/* GitHub Icon */}
                 <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white">
@@ -45,7 +45,7 @@ const HeroSection = () => {
               </ShimmerButton>
             </a>
             <a
-              href="https://drive.google.com/file/d/1JJDp_9ngX_Htv4Xy-q6RHAFIj3fcC3r5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cnp-BNwrYhEfkB5zF85QZCRnRVBSX7qP/view?usp=sharing"
               target="_blank"
             >
               <ShimmerButton className="shadow-2xl flex items-center">
