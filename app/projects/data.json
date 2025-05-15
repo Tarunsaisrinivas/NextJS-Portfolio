@@ -38,7 +38,7 @@
     "description": "The Expenses Tracker App helps users monitor and manage spending with a clean, user-friendly interface. It offers categorized tracking and insights to support smarter financial decisions.",
     "techStack": ["React Native", "Firebase"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Expenses-Tracker-App",
-    "liveDemo": "https://editor.example.com",
+    "liveDemo": "https://expo.dev/preview/update?message=first%20commit%20-%20version%201&updateRuntimeVersion=1.0.0&createdAt=2025-05-07T04%3A30%3A22.266Z&slug=exp&projectId=762075b3-d361-4938-a5ab-4ee3e53d24f4&group=1b03ba5d-8c41-4bdc-b414-f37f81d2c090",
     "image": "/assets/expense.png?w=150&h=150"
   },
   {
