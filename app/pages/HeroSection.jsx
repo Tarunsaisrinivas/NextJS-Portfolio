@@ -1,8 +1,8 @@
-"use client"
-import React from 'react';
-import { FaFileAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
-import SequentialHyperText from '../containers/SequentialTyping';
-import Globe from '@/components/ui/globe';
+"use client";
+import React from "react";
+import { FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import SequentialHyperText from "../containers/SequentialTyping";
+import Globe from "@/components/ui/globe";
 import ShimmerButton from "@/components/ui/shimmer-button"; // Import the ShimmerButton
 
 const HeroSection = () => {

@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="flex items-center h-20 bg-white dark:bg-black dark:bg-opacity-10 justify-between px-4 md:px-8 shadow-md">
       {/* Logo Section */}
       <div className="flex items-center">
-        <Image src="/assets/logo.png" alt="Logo" width={100} height={100} />
+        <Image src="/assets/icon.png" alt="Logo" width={100} height={100} />
       </div>
 
       {/* Centered Navigation Links with Background */}
