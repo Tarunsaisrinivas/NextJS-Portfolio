@@ -1,6 +1,8 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const skills = [
   { name: "HTML", img: "/assets/html.svg" },
   { name: "CSS", img: "/assets/css.svg" },
@@ -17,8 +19,18 @@ const firstRow = skills.slice(0, skills.length / 2);
 const secondRow = skills.slice(skills.length / 2);
 
 const SkillCard = ({ img, name }) => {
+  useEffect(() => {
+      AOS.init({
+        duration: 1000, // animation duration in ms
+        once: false, // whether animation should happen only once
+      });
+    }, []);
+    useEffect(() => {
+      AOS.refresh();
+    }, []);
   return (
     <div
+      data-aos="fade-up"
       className={cn(
         "relative w-28 h-28 md:w-32 md:h-32 cursor-pointer overflow-hidden rounded-xl border p-2",
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",

@@ -1,13 +1,19 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: false, 
+    });
+  }, []);
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -42,7 +48,7 @@ export function Contact() {
   };
 
   return (
-    <div id="contact" className="bg-white dark:bg-black">
+    <div data-aos="fade-up" id="contact" className="bg-white dark:bg-black">
       <h1 className="text-center mt-0 text-2xl font-mono font-bold mb-4">
         CONTACT
       </h1>

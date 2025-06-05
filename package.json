@@ -16,6 +16,7 @@
     "@radix-ui/react-slot": "^1.1.1",
     "@tabler/icons-react": "^3.33.0",
     "antd": "^5.22.7",
+    "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",

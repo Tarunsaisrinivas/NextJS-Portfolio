@@ -10,7 +10,7 @@ const HeroSection = () => {
     <div className="flex flex-col  md:flex-row md:min-h-screen min-h-screen bg-transparent text-center cursor-custom-black md:text-left p-8">
       {/* <Globe /> */}
 
-      <div className="md:w-1/2 mt-8 md:mt-0 h-auto">
+      <div data-aos="fade-up" className="md:w-1/2 mt-8 md:mt-0 h-auto">
         <h1 className="text-5xl font-extrabold text-gray-800 dark:text-white">
           I am Tarun Sai Srinivas
         </h1>

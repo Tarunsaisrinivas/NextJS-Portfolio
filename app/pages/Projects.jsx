@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Image from "next/image";
 import Iphone15Pro from "../../components/ui/iphone-15-pro";
 import Safari from "../../components/ui/safari";
@@ -9,6 +9,8 @@ import ShimmerButton from "@/components/ui/shimmer-button";
 import { FaGithub } from "react-icons/fa";
 import { PiShareBold } from "react-icons/pi";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const items = [
   {
@@ -44,10 +46,19 @@ const items = [
 
 export default function Projects() {
   const [selectedItem, setSelectedItem] = useState(items[0]);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: false, // whether animation should happen only once
+    });
+  }, []);
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
   return (
     <div
       id="projects"
+      data-aos="fade-up"
       className="flex flex-col dark:bg-black bg-white gap-8 p-4"
     >
       <h1 className="text-center mt-0 text-2xl font-mono font-bold mb-4">
