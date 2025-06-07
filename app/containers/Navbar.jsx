@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { ModeToggle } from '@/components/ui/ModeToggle';
 import Image from 'next/image';
 import { FiMenu, FiX } from 'react-icons/fi';  // Hamburger and close icons
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,17 +16,20 @@ const Navbar = () => {
     <nav className="flex items-center h-20 bg-white dark:bg-black dark:bg-opacity-10 justify-between px-4 md:px-8 shadow-md">
       {/* Logo Section */}
       <div className="flex items-center">
+        <Link href="/">
         <Image src="/assets/icon.png" alt="Logo" width={100} height={100} />
+        </Link>
       </div>
 
       {/* Centered Navigation Links with Background */}
       <div className="hidden md:flex items-center bg-black dark:bg-white  rounded-full p-1 space-x-6">
-        <a
-          href="/"
+        <Link
+          href="/blogs"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
         >
-          Home
-        </a>
+          Blog
+        </Link>
+
         <a
           href="#projects"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
@@ -50,14 +54,15 @@ const Navbar = () => {
       <div className="flex md:hidden items-center space-x-4">
         <ModeToggle />
         <button onClick={toggleMenu} className="text-black dark:text-white">
-          {isOpen ? <FiX size={30} /> : <FiMenu size={30} />}  {/* Toggle between menu and close */}
+          {isOpen ? <FiX size={30} /> : <FiMenu size={30} />}{" "}
+          {/* Toggle between menu and close */}
         </button>
       </div>
 
       {/* Mobile Menu */}
       <div
         className={`absolute top-20 left-0 w-full bg-white dark:bg-black z-40 transition-all duration-300 ease-in-out transform ${
-          isOpen ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'
+          isOpen ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0"
         } overflow-hidden flex flex-col items-center justify-center space-y-4 px-6 py-4`}
       >
         <a

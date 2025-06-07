@@ -18,9 +18,7 @@ module.exports = {
 		boxShadow: {
 			input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
 		  },
-		cursor: {
-			'custom-black': "url('/public/assets/black-cursor.png') 32 32, auto",
-		  },
+		
   		dropShadow: {
   			'3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
   			'4xl': ['0 35px 35px rgba(0, 0, 0, 0.25)','0 45px 65px rgba(0, 0, 0, 0.15)'],
