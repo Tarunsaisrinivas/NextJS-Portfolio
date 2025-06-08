@@ -15,6 +15,7 @@
     "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.1",
     "@tabler/icons-react": "^3.33.0",
+    "@vercel/analytics": "^1.5.0",
     "antd": "^5.22.7",
     "aos": "^2.3.4",
     "chart.js": "^4.4.9",
