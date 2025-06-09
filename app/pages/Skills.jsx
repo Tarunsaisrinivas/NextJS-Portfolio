@@ -11,7 +11,7 @@ const skills = [
   { name: "Next.js", img: "/assets/nextjs.png" },
   { name: "Tailwind CSS", img: "/assets/tailwindcss.png" },
   { name: "shadcn UI", img: "/assets/shadcn.png" },
-  { name: "React Native", img: "/assets/react.svg" },
+  { name: "React Native", img: "/assets/react-native.png" },
   { name: "Ant Design", img: "/assets/antd.png" },
 ];
 
