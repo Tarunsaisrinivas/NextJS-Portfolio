@@ -24,6 +24,7 @@ ChartJS.register(
 
 export default function DownloadsChart({ packageName }) {
   const [chartData, setChartData] = useState(null);
+
   useEffect(() => {
     async function fetchDownloads() {
       try {
@@ -60,15 +61,14 @@ export default function DownloadsChart({ packageName }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false, // allow dynamic resizing
     plugins: {
       legend: { position: "top" },
-      title: { display: true, text: "NPM Downloads (Last 30 days)" },
+      title: { display: true, text: "NPM Downloads (Last 30 Days)" },
     },
     scales: {
       x: {
-        ticks: {
-          maxTicksLimit: 10, // avoid overcrowding x-axis
-        },
+        ticks: { maxTicksLimit: 10 },
       },
       y: {
         beginAtZero: true,
@@ -76,5 +76,9 @@ export default function DownloadsChart({ packageName }) {
     },
   };
 
-  return <Line data={chartData} options={options} className="bg-white dark:bg-black" />;
+  return (
+    <div className="relative w-full h-[300px] sm:h-[400px] overflow-x-auto  rounded-lg shadow-md p-2">
+      <Line data={chartData} options={options} />
+    </div>
+  );
 }
