@@ -13,7 +13,7 @@ const Page = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 600);
+    const timer = setTimeout(() => setLoading(false), 1000); // Simulate loading for 1 second
     return () => clearTimeout(timer);
   }, []);
 

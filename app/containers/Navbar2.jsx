@@ -15,9 +15,9 @@ const Navbar = () => {
   return (
     <nav className="flex items-center mb-1 h-20 bg-white dark:bg-black dark:bg-opacity-10 justify-between px-4 md:px-8 shadow-md">
       {/* Logo Section */}
-      <div className="flex items-center">
+      <div className="flex items-center hover:rotate-12 transition-all duration-300">
         <Link href="/">
-        <Image src="/assets/icon.png" alt="Logo" width={100} height={100} />
+          <Image src="/assets/icon.png" alt="Logo" width={100} height={100} />
         </Link>
       </div>
 

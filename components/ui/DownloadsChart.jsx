@@ -42,7 +42,7 @@ export default function DownloadsChart({ packageName }) {
             {
               label: `Downloads per day for ${packageName}`,
               data: downloads,
-              borderColor: "rgba(75,192,192,1)",
+              borderColor: "rgba(252,192,2)",
               backgroundColor: "rgba(75,192,192,0.2)",
               fill: true,
               tension: 0.3,
