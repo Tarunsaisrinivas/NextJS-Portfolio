@@ -1,8 +1,8 @@
 "use client"
 import React, { useState } from 'react';
 import { ModeToggle } from '@/components/ui/ModeToggle';
-import Image from 'next/image';
 import { FiMenu, FiX } from 'react-icons/fi';  // Hamburger and close icons
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Navbar = () => {

@@ -5,21 +5,7 @@ import { FiCopy, FiCheck } from "react-icons/fi";
 import GistEmbed from "@/components/ui/GistEmbed";
 import { Image } from "antd";
 import DownloadsChart from "@/components/ui/DownloadsChart";
-
 const ResponsiveIndicatorBlog = () => {
-  const gistRef = useRef(null);
-
-  useEffect(() => {
-    const gistScript = document.createElement("script");
-    gistScript.src =
-      "https://gist.github.com/Tarunsaisrinivas/87be4fea3ad1fd0bcf465a14d11ad6fc.js";
-    gistScript.async = true;
-
-    if (gistRef.current) {
-      gistRef.current.innerHTML = ""; // Clear old script
-      gistRef.current.appendChild(gistScript);
-    }
-  }, []);
 
   const [copied, setCopied] = useState(false);
   const command = "npm i screen-indicator";
@@ -95,8 +81,6 @@ const ResponsiveIndicatorBlog = () => {
           <h2>🧩 Code Sample</h2>
           <GistEmbed gistId="Tarunsaisrinivas/87be4fea3ad1fd0bcf465a14d11ad6fc" />
 
-          <div ref={gistRef} className="my-6" />
-
           <h2>🎥 Demo</h2>
           <div className="aspect-w-16 aspect-h-9 mb-6">
             <iframe
@@ -109,7 +93,11 @@ const ResponsiveIndicatorBlog = () => {
 
           <h2>📈 Downloads (Last 30 days)</h2>
           <div className="mb-8 ">
-            <DownloadsChart packageName="screen-indicator" />
+            <DownloadsChart
+              packageName="screen-indicator"
+              borderColor="rgba(252,192,2)"
+              backgroundColor="rgba(252,192,2,0.2)"
+            />
           </div>
 
           <h2>🖼️ Screenshots</h2>
@@ -160,6 +148,28 @@ const ResponsiveIndicatorBlog = () => {
             development workflows. I hope it helps speed up yours too!
           </p>
         </article>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">🙋‍♂️ Author</h2>
+        <p>
+          Made with ❤️ by <strong>Tarun Sai Srinivas</strong>.{" "}
+          <a
+            href="https://www.linkedin.com/in/tarun-sai-srinivas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Connect on LinkedIn
+          </a>{" "}
+          or explore the package on{" "}
+          <a
+            href="https://www.npmjs.com/package/screen-indicator"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            npm
+          </a>
+          .
+        </p>
       </div>
     </>
   );

@@ -9,6 +9,7 @@ const skills = [
   { name: "JavaScript", img: "/assets/js.svg" },
   { name: "React", img: "/assets/react.svg" },
   { name: "Next.js", img: "/assets/nextjs.png" },
+  { name: "Git", img: "/assets/git.png" },
   { name: "Tailwind CSS", img: "/assets/tailwindcss.png" },
   { name: "shadcn UI", img: "/assets/shadcn.png" },
   { name: "React Native", img: "/assets/react-native.png" },

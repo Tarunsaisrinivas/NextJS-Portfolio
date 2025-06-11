@@ -22,7 +22,7 @@ ChartJS.register(
   Legend
 );
 
-export default function DownloadsChart({ packageName }) {
+export default function DownloadsChart({ packageName,borderColor, backgroundColor }) {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
@@ -42,8 +42,8 @@ export default function DownloadsChart({ packageName }) {
             {
               label: `Downloads per day for ${packageName}`,
               data: downloads,
-              borderColor: "rgba(252,192,2)",
-              backgroundColor: "rgba(75,192,192,0.2)",
+              borderColor: `${borderColor}`,
+              backgroundColor:`${backgroundColor}`,
               fill: true,
               tension: 0.3,
             },
@@ -55,7 +55,7 @@ export default function DownloadsChart({ packageName }) {
     }
 
     fetchDownloads();
-  }, [packageName]);
+  }, [packageName, borderColor, backgroundColor]);
 
   if (!chartData) return <p>Loading chart...</p>;
 

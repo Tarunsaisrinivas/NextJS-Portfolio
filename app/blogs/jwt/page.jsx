@@ -143,6 +143,20 @@ const jwt = () => {
           #SecurityBestPractices #WebDevelopment #CyberSecurity #FullStack #JWT
           #NodeJS #DevTips
         </p>
+        <h2 className="text-2xl font-semibold mt-6 mb-2">🙋‍♂️ Author</h2>
+        <p>
+          Made with ❤️ by <strong>Tarun Sai Srinivas</strong>.{" "}
+          <a
+            href="https://www.linkedin.com/in/tarun-sai-srinivas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Connect on LinkedIn
+          </a>{" "}
+         
+          .
+        </p>
       </section>
     </>
   );
