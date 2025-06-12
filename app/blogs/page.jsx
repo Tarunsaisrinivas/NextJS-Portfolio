@@ -1,9 +1,31 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Navbar from "../containers/Navbar2";
+
+const blogData = [
+  {
+    title: "Responsive Indicator: Instantly See Active Tailwind Breakpoints",
+    date: "May 20, 2025",
+    href: "/blogs/screen-size-indicator",
+  },
+  {
+    title: 'Stop Using "secret" as Your JWT Secret Key 🔐',
+    date: "May 21, 2025",
+    href: "/blogs/jwt",
+  },
+  {
+    title: " Supercharge Your Tailwind Workflow with This One Command",
+    date: "May 23, 2025",
+    href: "/blogs/tailwind",
+  },
+  {
+    title: "📊 Building downloads-graph: An NPM Package for Download Stats",
+    date: "June 11, 2025",
+    href: "/blogs/downloads-graph",
+  },
+];
 
 const BlogList = () => {
   const router = useRouter();
@@ -35,37 +57,18 @@ const BlogList = () => {
             <div className="h-6 w-6 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin" />
           </div>
         )}
-        {/* blog1 */}
+
         <div className="space-y-6 mt-6">
-          <div
-            onClick={() => handleNavigation("/blogs/screen-size-indicator")}
-            className="p-4 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-white/10 transition cursor-pointer"
-          >
-            <h2 className="text-xl font-semibold">
-              Responsive Indicator: Instantly See Active Tailwind Breakpoints
-            </h2>
-            <p className="text-sm text-gray-500 mt-1">May 20, 2025</p>
-          </div>
-          {/* blog 2 */}
-          <div
-            onClick={() => handleNavigation("/blogs/jwt")}
-            className="p-4 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-white/10 transition cursor-pointer"
-          >
-            <h2 className="text-xl font-semibold">
-              Stop Using <q>secret</q> as Your JWT Secret Key 🔐
-            </h2>
-            <p className="text-sm text-gray-500 mt-1">May 21, 2025</p>
-          </div>
-          {/* blog3 */}
-          <div
-            onClick={() => handleNavigation("/blogs/downloads-graph")}
-            className="p-4 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-white/10 transition cursor-pointer"
-          >
-            <h2 className="text-xl font-semibold">
-              📊 Building downloads-graph: An NPM Package for Download Stats
-            </h2>
-            <p className="text-sm text-gray-500 mt-1">June 11, 2025</p>
-          </div>
+          {blogData.map((blog, idx) => (
+            <div
+              key={idx}
+              onClick={() => handleNavigation(blog.href)}
+              className="p-4 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-white/10 transition cursor-pointer"
+            >
+              <h2 className="text-xl font-semibold">{blog.title}</h2>
+              <p className="text-sm text-gray-500 mt-1">{blog.date}</p>
+            </div>
+          ))}
         </div>
       </section>
     </>
