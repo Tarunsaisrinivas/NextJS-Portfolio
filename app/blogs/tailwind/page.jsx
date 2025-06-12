@@ -51,8 +51,8 @@ const TailwindWatchBlog = () => {
           <li>
             Add a script in your <code>package.json</code>:
             <pre className="bg-gray-900 text-yellow-300 rounded-md p-2 text-sm mt-1">
-              "build:css": "tailwindcss -i ./src/index.css -o ./src/style.css
-              --watch"
+              build:css: &apos;tailwindcss -i ./src/index.css -o
+              ./src/style.css --watch&apos;
             </pre>
           </li>
           <li>
