@@ -18,7 +18,7 @@
     "title": "HackOverFlow2k24 Website ",
     "date": "Oct 2024",
     "description": "Developed a responsive event website for HackOverFlow2k24 using React.js and Tailwind CSS, enabling smooth promotion and participant registration.",
-    "techStack": ["React js", "Tailwind CSS","Ant Design"],
+    "techStack": ["React js", "Tailwind CSS", "Ant Design"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/hackoverflow",
     "liveDemo": "https://hackover-flow.vercel.app/",
     "image": "/assets/hackoverflow.png"
@@ -45,7 +45,7 @@
     "title": "Zebronics Watch Landing Page",
     "date": "Aug 2023",
     "description": "Created a landing page for Zebronics Watch using HTML, CSS, and JavaScript, showcasing product features with an interactive and responsive design.",
-    "techStack": ["HTML","CSS","JavaScript"],
+    "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/CODSOFT/tree/main/LandingPage",
     "liveDemo": "https://tarunsaisrinivas.github.io/CODSOFT/LandingPage/",
     "image": "/assets/zebronics.png"
@@ -72,9 +72,18 @@
     "title": "SRKRCSE Department Website",
     "date": "Aug 2023",
     "description": "A departmental website for SRKR CSE, for accessing Lecture Notes, Contact details, Events, News , Timetables, Syllabus and so on.",
-    "techStack": ["HTML", "CSS", "JavaScript","Bootstrap"],
+    "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/SRKR-CSE",
     "liveDemo": "https://srkrcse.com/",
     "image": "/assets/Srkrcse.webp"
+  },
+  {
+    "title": "Rock Paper Scissors Game using Hand Gesture Recognition",
+    "date": "July 2025",
+    "description": "Built a real-time Rock-Paper-Scissors game using React and TensorFlow.js with hand gesture recognition via webcam. Integrated AI-powered Handpose model for gesture classification and dynamic score tracking against a computer opponent.",
+    "techStack": ["React js", "CSS", "TensorFlow js", "Handpose Model"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Rock-Paper-Scissors-Game",
+    "liveDemo": "https://rock-paper-scissors-tensor.vercel.app/",
+    "image": "/assets/rock-paper-scissors.jpg"
   }
 ]
