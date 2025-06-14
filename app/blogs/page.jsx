@@ -43,18 +43,18 @@ const BlogList = () => {
         <h1 className="text-3xl font-bold mb-6">Blog</h1>
 
         <h2 className="mt-2 text-lg">
-          Track NPM Download Stats Using a Reusable React Component –{" "}
+          Launch the code editor — write, compile, and test in seconds!{" "}
           <button
-            onClick={() => handleNavigation("/blogs/downloads-graph")}
+            onClick={() => handleNavigation("/blogs/code-compiler")}
             className="text-blue-600 underline hover:text-blue-800"
           >
-            Read more
+            Click Here 👈
           </button>
         </h2>
 
         {loading && (
           <div className="my-4 flex justify-center">
-            <div className="h-6 w-6 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin" />
+            <div className="h-6 w-6 border-4 border-yellow-400 rounded-full animate-spin" />
           </div>
         )}
 
