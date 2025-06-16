@@ -25,6 +25,11 @@ const blogData = [
     date: "June 11, 2025",
     href: "/blogs/downloads-graph",
   },
+  {
+    title: "🧬 Binary Cursor – React & Next.js Cursor Effect",
+    date: "June 16, 2025",
+    href: "/blogs/binary-cursor",
+  },
 ];
 
 const BlogList = () => {

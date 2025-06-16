@@ -21,6 +21,7 @@
     "antd": "^5.22.7",
     "aos": "^2.3.4",
     "axios": "^1.9.0",
+    "binary-cursor": "^1.0.1",
     "chart.js": "^4.4.9",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
