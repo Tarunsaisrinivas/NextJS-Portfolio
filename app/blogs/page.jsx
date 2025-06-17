@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Navbar from "../containers/Navbar2";
+import SubscribeForm from "../containers/SubscribeForm";
 
 const blogData = [
   {
@@ -76,6 +77,7 @@ const BlogList = () => {
           ))}
         </div>
       </section>
+      <SubscribeForm />
     </>
   );
 };
