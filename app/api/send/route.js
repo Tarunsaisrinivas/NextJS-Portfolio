@@ -35,7 +35,7 @@ export async function POST(req) {
 
     for (const subscriber of subscribers) {
       await transporter.sendMail({
-        from: `"Newsletter" <${process.env.EMAIL_USERNAME}>`,
+        from: `"Tarun Sai Srinivas" <${process.env.EMAIL_USERNAME}>`,
         to: subscriber.email,
         subject,
         html: `

@@ -1,23 +1,22 @@
 "use client";
-import React, { useState,useEffect } from "react";
+import React, { useEffect } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useContactForm } from "@/hooks/useContactForm"; // import your hook
+
 export function Contact() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const { isSubmitting, isSubmitted, submitForm, setIsSubmitted } =
+    useContactForm();
+
   useEffect(() => {
-    AOS.init({
-      duration: 1000, 
-      once: false, 
-    });
+    AOS.init({ duration: 1000, once: false });
   }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
-
     const formData = {
       firstname: e.target.firstname.value,
       lastname: e.target.lastname.value,
@@ -25,25 +24,11 @@ export function Contact() {
       message: e.target.message.value,
     };
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      const result = await response.json();
-      if (result.success) {
-        setIsSubmitted(true);
-        e.target.reset();
-      } else {
-        alert("Error submitting message");
-      }
-    } catch (err) {
-      alert("Error submitting message");
-      console.error(err);
-    } finally {
-      setIsSubmitting(false);
+    const result = await submitForm(formData);
+    if (result.success) {
+      e.target.reset();
+    } else {
+      alert(result.error || "Something went wrong.");
     }
   };
 

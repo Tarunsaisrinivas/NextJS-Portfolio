@@ -1,11 +1,11 @@
 // pages/api/submit.js
-import connectDB from "@/lib/db";
+import { connectToDatabase } from "@/lib/db";
 import Contact from "@/lib/models/contact";
 import { NextResponse } from 'next/server';
 
 export async function POST(req, res) {
   try {
-    await connectDB();
+    await connectToDatabase();
     const { firstname,lastname, email, message } = await req.json();
     const newContact = new Contact({ firstname,lastname, email, message });
     await newContact.save();
