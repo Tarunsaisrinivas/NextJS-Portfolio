@@ -31,7 +31,7 @@ const Navbar = () => {
         </Link>
 
         <a
-          href="#projects"
+          href="/projects"
           className="px-4 py-1 text-white dark:text-black rounded-lg hover:scale-105 hover:font-bold transition duration-200"
         >
           Projects

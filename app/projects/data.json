@@ -78,12 +78,30 @@
     "image": "/assets/Srkrcse.webp"
   },
   {
+    "title": "React Cursor",
+    "date": "May 2025",
+    "description": "A modern collection of customizable and animated cursor packs built with Next.js, Tailwind CSS, and shadcn/ui — designed for developers who want to enhance their UI with creative cursor styles.",
+    "techStack": ["Next.js", "Tailwind CSS", "Shadcn UI"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/react-cursor",
+    "liveDemo": "https://reactcursor.tech/",
+    "image": "/assets/react-cursor.png"
+  },
+  {
     "title": "Rock Paper Scissors Game using Hand Gesture Recognition",
-    "date": "July 2025",
+    "date": "June 2025",
     "description": "Built a real-time Rock-Paper-Scissors game using React and TensorFlow.js with hand gesture recognition via webcam. Integrated AI-powered Handpose model for gesture classification and dynamic score tracking against a computer opponent.",
     "techStack": ["React js", "CSS", "TensorFlow js", "Handpose Model"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Rock-Paper-Scissors-Game",
     "liveDemo": "https://rock-paper-scissors-tensor.vercel.app/",
     "image": "/assets/rock-paper-scissors.jpg"
+  },
+  {
+    "title": "Fruit Ninja Game with Index Finger Gesture",
+    "date": "July 2025",
+    "description": "Built a real-time Rock-Paper-Scissors game using React and TensorFlow.js with hand gesture recognition via webcam. Integrated AI-powered Handpose model for gesture classification and dynamic score tracking against a computer opponent.",
+    "techStack": ["HTML", "CSS","JavaScript", "TensorFlow js", "Handpose Model"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Fruit-ninja ",
+    "liveDemo": "https://fruit-slice-ninja.vercel.app/",
+    "image": "/assets/fruit-ninja.jpeg"
   }
 ]
