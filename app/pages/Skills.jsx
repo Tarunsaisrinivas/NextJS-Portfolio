@@ -21,14 +21,14 @@ const secondRow = skills.slice(skills.length / 2);
 
 const SkillCard = ({ img, name }) => {
   useEffect(() => {
-      AOS.init({
-        duration: 1000, // animation duration in ms
-        once: false, // whether animation should happen only once
-      });
-    }, []);
-    useEffect(() => {
-      AOS.refresh();
-    }, []);
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: false, // whether animation should happen only once
+    });
+  }, []);
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
   return (
     <div
       data-aos="fade-up"
@@ -39,7 +39,9 @@ const SkillCard = ({ img, name }) => {
       )}
     >
       <img className="h-16 w-16 md:h-20 md:w-20" alt={name} src={img} />
-      <p className="mt-2 text-center text-xs md:text-sm font-medium text-gray-800 dark:text-white">{name}</p>
+      <p className="mt-2 text-center text-xs md:text-sm font-medium text-gray-800 dark:text-white">
+        {name}
+      </p>
     </div>
   );
 };
@@ -47,7 +49,12 @@ const SkillCard = ({ img, name }) => {
 export function SkillsMarquee() {
   return (
     <>
-      <h1 id="skills" className="text-center mt-0  text-2xl font-mono font-bold mb-4">SKILLS</h1>
+      <h1
+        id="skills"
+        className="text-center mt-0 relative pt-20  text-2xl font-mono font-bold mb-4"
+      >
+        SKILLS
+      </h1>
       <div className="relative flex h-[300px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:15s]">
           {firstRow.map((skill) => (
