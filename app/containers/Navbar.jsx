@@ -4,6 +4,7 @@ import { ModeToggle } from '@/components/ui/ModeToggle';
 import { FiMenu, FiX } from 'react-icons/fi';  // Hamburger and close icons
 import Image from 'next/image';
 import Link from 'next/link';
+import { AnimatedThemeToggler } from '@/components/magicui/animated-theme-toggler';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +53,8 @@ const Navbar = () => {
 
       {/* Mobile: Hamburger and Dark Mode Toggle */}
       <div className="flex md:hidden items-center space-x-4">
-        <ModeToggle />
+        {/* <ModeToggle /> */}
+        <AnimatedThemeToggler />
         <button onClick={toggleMenu} className="text-black dark:text-white">
           {isOpen ? <FiX size={30} /> : <FiMenu size={30} />}{" "}
           {/* Toggle between menu and close */}

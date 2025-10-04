@@ -7,7 +7,7 @@ body {
   /* background: url("/assets/ooorganize.svg"); */
   background: url("/assets/grid.svg");
   /* cursor: url("./black-cursor.png"),auto; */
-  
+
 }
 .sketch path {
   stroke: white;
@@ -23,8 +23,6 @@ body {
     stroke-dashoffset: 0;
   }
 }
-
-
 
 @keyframes rotate {
   0% {
@@ -81,7 +79,7 @@ body {
   .clip-path-none {
     clip-path: none /* Adjust the visible portion of the globe */
   }
- 
+
   .text-balance {
     text-wrap: balance;
   }
@@ -150,4 +148,10 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+::view-transition-old(root), ::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
+
 }

@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Tarun Sai Srinivas | Frontend Developer & Open Source Contributor",
   description:
-    "Welcome to the portfolio of Tarun Sai Srinivas — a passionate frontend developer proficient in React.js, Next.js, and React Native. Explore projects, contributions, and professional journey.",
+    "Tarun Sai Srinivas is a passionate frontend developer specializing in React.js, Next.js, and React Native. With expertise in building modern web and mobile applications, he creates seamless user experiences and responsive designs. His portfolio showcases projects, open-source contributions, and a proven track record in frontend development. Explore his work to learn more about his skills, career journey, and dedication to innovative digital solutions.",
   keywords: [
     "Tarun Sai Srinivas",
     "Frontend Developer",
@@ -27,9 +27,19 @@ export const metadata = {
     "Web Developer India",
     "React Native",
     "Tailwind CSS",
+    "Portfolio Website",
+    "Web Performance",
+    "UI/UX Enthusiast",
+    "Full Stack Developer",
+    "Software Engineer",
     "Modern UI Developer",
   ],
-  authors: [{ name: "Tarun Sai Srinivas", url: "https://tarunsaisrinivas.site" }],
+  authors: [
+    {
+      name: "Tarun Sai Srinivas",
+      url: "https://tarunsaisrinivas.site",
+    },
+  ],
   creator: "Tarun Sai Srinivas",
   publisher: "Tarun Sai Srinivas",
   robots: "index, follow",
@@ -70,7 +80,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/assets/icon.png" />
-      </head>
+      </head>{" "}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -80,10 +90,9 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          {children}
-          <Analytics />
-        </ThemeProvider>
-      </body>
+          {children} <Analytics />
+        </ThemeProvider>{" "}
+      </body>{" "}
     </html>
   );
 }
