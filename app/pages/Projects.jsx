@@ -48,8 +48,8 @@ export default function Projects() {
   const [selectedItem, setSelectedItem] = useState(items[0]);
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration in ms
-      once: false, // whether animation should happen only once
+      duration: 1000, 
+      once: false,
     });
   }, []);
   useEffect(() => {

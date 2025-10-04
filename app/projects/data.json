@@ -12,7 +12,8 @@
     ],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Next-js-Portfolio",
     "liveDemo": "https://tarunsai-srinivas.vercel.app/",
-    "image": "/assets/portfolioV1.png"
+    "image": "/assets/portfolioV1.png",
+    "category": "web"
   },
   {
     "title": "HackOverFlow2k24 Website ",
@@ -21,7 +22,8 @@
     "techStack": ["React js", "Tailwind CSS", "Ant Design"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/hackoverflow",
     "liveDemo": "https://hackover-flow.vercel.app/",
-    "image": "/assets/hackoverflow.png"
+    "image": "/assets/hackoverflow.png",
+    "category": "web"
   },
   {
     "title": "Code Combat Exam Portal",
@@ -30,7 +32,8 @@
     "techStack": ["Next.js", "Tailwind CSS", "Ant Design", "MongoDB"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/codecombat-WEB12",
     "liveDemo": "https://codecombat-web12.vercel.app",
-    "image": "/assets/codecombat.png"
+    "image": "/assets/codecombat.png",
+    "category": "web"
   },
   {
     "title": "Expenses Tracker App",
@@ -39,7 +42,8 @@
     "techStack": ["React Native", "Firebase"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Expenses-Tracker-App",
     "liveDemo": "https://expo.dev/preview/update?message=first%20commit%20-%20version%201&updateRuntimeVersion=1.0.0&createdAt=2025-05-07T04%3A30%3A22.266Z&slug=exp&projectId=762075b3-d361-4938-a5ab-4ee3e53d24f4&group=1b03ba5d-8c41-4bdc-b414-f37f81d2c090",
-    "image": "/assets/expense.png?w=150&h=150"
+    "image": "/assets/expense.png?w=150&h=150",
+    "category": "mobile"
   },
   {
     "title": "Zebronics Watch Landing Page",
@@ -48,7 +52,8 @@
     "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/CODSOFT/tree/main/LandingPage",
     "liveDemo": "https://tarunsaisrinivas.github.io/CODSOFT/LandingPage/",
-    "image": "/assets/zebronics.png"
+    "image": "/assets/zebronics.png",
+    "category": "web"
   },
   {
     "title": "Netflix UI Clone",
@@ -57,7 +62,8 @@
     "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Netflix/tree/main/Netflix",
     "liveDemo": "https://netflix-jet-eight.vercel.app/",
-    "image": "/assets/Netflix.webp"
+    "image": "/assets/Netflix.webp",
+    "category":"web"
   },
   {
     "title": "Temperature Converter",
@@ -66,7 +72,8 @@
     "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/TEMPERATURE_CONVERTER/tree/main/temperature",
     "liveDemo": "https://tarunsaisrinivas.github.io/TEMPERATURE_CONVERTER/temperature/",
-    "image": "/assets/Temperature.webp"
+    "image": "/assets/Temperature.webp",
+    "category":"web"
   },
   {
     "title": "SRKRCSE Department Website",
@@ -75,7 +82,8 @@
     "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/SRKR-CSE",
     "liveDemo": "https://srkrcse.com/",
-    "image": "/assets/Srkrcse.webp"
+    "image": "/assets/Srkrcse.webp",
+    "category":"web"
   },
   {
     "title": "React Cursor",
@@ -84,7 +92,8 @@
     "techStack": ["Next.js", "Tailwind CSS", "Shadcn UI"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/react-cursor",
     "liveDemo": "https://reactcursor.tech/",
-    "image": "/assets/react-cursor.png"
+    "image": "/assets/react-cursor.png",
+    "category": "web"
   },
   {
     "title": "Rock Paper Scissors Game using Hand Gesture Recognition",
@@ -93,7 +102,8 @@
     "techStack": ["React js", "CSS", "TensorFlow js", "Handpose Model"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Rock-Paper-Scissors-Game",
     "liveDemo": "https://rock-paper-scissors-tensor.vercel.app/",
-    "image": "/assets/rock-paper-scissors.jpg"
+    "image": "/assets/rock-paper-scissors.jpg",
+    "category": "games"
   },
   {
     "title": "Fruit Ninja Game with Index Finger Gesture",
@@ -102,6 +112,7 @@
     "techStack": ["HTML", "CSS","JavaScript", "TensorFlow js", "Handpose Model"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Fruit-ninja ",
     "liveDemo": "https://fruit-slice-ninja.vercel.app/",
-    "image": "/assets/fruit-ninja.jpeg"
+    "image": "/assets/fruit-ninja.jpeg",
+    "category": "games"
   }
 ]
