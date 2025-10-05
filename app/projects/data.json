@@ -114,5 +114,15 @@
     "liveDemo": "https://fruit-slice-ninja.vercel.app/",
     "image": "/assets/fruit-ninja.jpeg",
     "category": "games"
+  },
+  {
+    "title":"Hangman Game",
+    "date":"September 2025",
+    "description":"A classic Hangman game where players guess letters to reveal a hidden word before running out of attempts. Correct guesses uncover the word, while wrong ones draw the hangman figure. With an interactive keyboard and win/lose feedback, it’s a fun way to test vocabulary and problem-solving skills.",
+    "techStack":["React js","Tailwind CSS","Typescript"],
+    "sourceCode":"https://github.com/Tarunsaisrinivas/React-Hangman-TS",
+    "liveDemo":"https://react-hangman-ts.vercel.app/",
+    "image":"/assets/hangman.png",
+    "category":"games"
   }
 ]
