@@ -82,6 +82,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/assets/icon.png" />
       </head>
       <body
+        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider

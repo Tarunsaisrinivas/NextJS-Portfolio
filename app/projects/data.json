@@ -1,8 +1,79 @@
 [
   {
+    "title": "Book Store API",
+    "date": "Nov 2025",
+    "description": "A RESTful API enabling users to add, update, delete, and manage books efficiently. Offers smooth search, detailed retrieval, and scalable backend support for web and mobile apps.",
+    "techStack": [
+      "Typescript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Swagger UI"
+    ],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Typescript-backend",
+    "image": "/assets/typescript.png",
+    "category": "web"
+  },
+  {
+    "title": "Hangman Game",
+    "date": "September 2025",
+    "description": "A modern Hangman game where players guess letters to uncover a hidden word. Features an interactive keyboard, dynamic feedback, and engaging visual gameplay.",
+    "techStack": ["React js", "Tailwind CSS", "Typescript"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/React-Hangman-TS",
+    "liveDemo": "https://react-hangman-ts.vercel.app/",
+    "image": "/assets/hangman.png",
+    "category": "games"
+  },
+  {
+    "title": "Fruit Ninja Game with Index Finger Gesture",
+    "date": "July 2025",
+    "description": "A gesture-controlled Fruit Ninja game using TensorFlow.js and Handpose for finger tracking. Players slice fruits in real time through webcam-based motion detection.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TensorFlow js",
+      "Handpose Model"
+    ],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Fruit-ninja",
+    "liveDemo": "https://fruit-slice-ninja.vercel.app/",
+    "image": "/assets/fruit-ninja.jpeg",
+    "category": "games"
+  },
+  {
+    "title": "Rock Paper Scissors Game using Hand Gesture Recognition",
+    "date": "June 2025",
+    "description": "A real-time Rock-Paper-Scissors game powered by TensorFlow.js hand gesture detection. Offers smooth gameplay with live tracking and AI-based gesture classification.",
+    "techStack": ["React js", "CSS", "TensorFlow js", "Handpose Model"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Rock-Paper-Scissors-Game",
+    "liveDemo": "https://rock-paper-scissors-tensor.vercel.app/",
+    "image": "/assets/rock-paper-scissors.jpg",
+    "category": "games"
+  },
+  {
+    "title": "React Cursor",
+    "date": "May 2025",
+    "description": "A collection of animated and customizable cursor designs built with Next.js and Tailwind. Helps developers enhance UI aesthetics with creative, ready-to-use cursor packs.",
+    "techStack": ["Next.js", "Tailwind CSS", "Shadcn UI"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/react-cursor",
+    "liveDemo": "https://reactcursor.tech/",
+    "image": "/assets/react-cursor.png",
+    "category": "web"
+  },
+  {
+    "title": "Expenses Tracker App",
+    "date": "Jan 2025",
+    "description": "A simple and clean mobile app to track daily expenses across categories. Provides insights and organized views to help users manage their spending effectively.",
+    "techStack": ["React Native", "Firebase"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/Expenses-Tracker-App",
+    "liveDemo": "https://expo.dev/preview/update?message=first%20commit%20-%20version%201&updateRuntimeVersion=1.0.0&createdAt=2025-05-07T04%3A30%3A22.266Z&slug=exp&projectId=762075b3-d361-4938-a5ab-4ee3e53d24f4&group=1b03ba5d-8c41-4bdc-b414-f37f81d2c090",
+    "image": "/assets/expense.png?w=150&h=150",
+    "category": "mobile"
+  },
+  {
     "title": "Portfolio v1",
     "date": "Dec 2024",
-    "description": "A portfolio website showcasing my skills, projects, and achievements in web and mobile app development.",
+    "description": "A personal portfolio website showcasing projects, skills, and achievements. Built with smooth animations and a clean UI for an engaging browsing experience.",
     "techStack": [
       "Next.js",
       "JavaScript",
@@ -16,9 +87,9 @@
     "category": "web"
   },
   {
-    "title": "HackOverFlow2k24 Website ",
+    "title": "HackOverFlow2k24 Website",
     "date": "Oct 2024",
-    "description": "Developed a responsive event website for HackOverFlow2k24 using React.js and Tailwind CSS, enabling smooth promotion and participant registration.",
+    "description": "A responsive event website for HackOverFlow2k24 built with React and Tailwind. Designed for smooth promotion, registrations, and participant engagement.",
     "techStack": ["React js", "Tailwind CSS", "Ant Design"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/hackoverflow",
     "liveDemo": "https://hackover-flow.vercel.app/",
@@ -28,7 +99,7 @@
   {
     "title": "Code Combat Exam Portal",
     "date": "Mar 2024",
-    "description": "Built a scalable quiz platform for the NIPUNA event, supporting 300+ registrations. Handled over 200 concurrent users with smooth performance and reliability.",
+    "description": "A scalable exam platform supporting 300+ registrations with smooth performance. Lets students take quizzes seamlessly while ensuring stability under high load.",
     "techStack": ["Next.js", "Tailwind CSS", "Ant Design", "MongoDB"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/codecombat-WEB12",
     "liveDemo": "https://codecombat-web12.vercel.app",
@@ -36,19 +107,19 @@
     "category": "web"
   },
   {
-    "title": "Expenses Tracker App",
-    "date": "Jan 2025",
-    "description": "The Expenses Tracker App helps users monitor and manage spending with a clean, user-friendly interface. It offers categorized tracking and insights to support smarter financial decisions.",
-    "techStack": ["React Native", "Firebase"],
-    "sourceCode": "https://github.com/Tarunsaisrinivas/Expenses-Tracker-App",
-    "liveDemo": "https://expo.dev/preview/update?message=first%20commit%20-%20version%201&updateRuntimeVersion=1.0.0&createdAt=2025-05-07T04%3A30%3A22.266Z&slug=exp&projectId=762075b3-d361-4938-a5ab-4ee3e53d24f4&group=1b03ba5d-8c41-4bdc-b414-f37f81d2c090",
-    "image": "/assets/expense.png?w=150&h=150",
-    "category": "mobile"
+    "title": "SRKRCSE Department Website",
+    "date": "Aug 2023",
+    "description": "A departmental website offering access to notes, events, faculty contacts, and academic resources. Designed for easy navigation and a clean, student-friendly interface.",
+    "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "sourceCode": "https://github.com/Tarunsaisrinivas/SRKR-CSE",
+    "liveDemo": "https://srkrcse.com/",
+    "image": "/assets/Srkrcse.webp",
+    "category": "web"
   },
   {
     "title": "Zebronics Watch Landing Page",
     "date": "Aug 2023",
-    "description": "Created a landing page for Zebronics Watch using HTML, CSS, and JavaScript, showcasing product features with an interactive and responsive design.",
+    "description": "A sleek landing page for a Zebronics smartwatch, highlighting features and design. Built with responsive layouts and smooth interactions for product showcasing.",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/CODSOFT/tree/main/LandingPage",
     "liveDemo": "https://tarunsaisrinivas.github.io/CODSOFT/LandingPage/",
@@ -58,71 +129,21 @@
   {
     "title": "Netflix UI Clone",
     "date": "Sep 2023",
-    "description": "Built a responsive Netflix UI clone using HTML, CSS, and JavaScript, featuring interactive elements, sleek layout, smooth animations, and dynamic responsiveness.",
+    "description": "A Netflix-inspired UI clone with responsive design and modern layout. Includes interactive sections, smooth animations, and a clean user experience.",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/Netflix/tree/main/Netflix",
     "liveDemo": "https://netflix-jet-eight.vercel.app/",
     "image": "/assets/Netflix.webp",
-    "category":"web"
+    "category": "web"
   },
   {
     "title": "Temperature Converter",
     "date": "Sep 2023",
-    "description": "A simple, functional web app that converts temperatures between Celsius, Fahrenheit, and Kelvin.",
+    "description": "A simple web app to convert temperatures between Celsius, Fahrenheit, and Kelvin. Designed with a clean UI for quick and easy temperature calculations.",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "sourceCode": "https://github.com/Tarunsaisrinivas/TEMPERATURE_CONVERTER/tree/main/temperature",
     "liveDemo": "https://tarunsaisrinivas.github.io/TEMPERATURE_CONVERTER/temperature/",
     "image": "/assets/Temperature.webp",
-    "category":"web"
-  },
-  {
-    "title": "SRKRCSE Department Website",
-    "date": "Aug 2023",
-    "description": "A departmental website for SRKR CSE, for accessing Lecture Notes, Contact details, Events, News , Timetables, Syllabus and so on.",
-    "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    "sourceCode": "https://github.com/Tarunsaisrinivas/SRKR-CSE",
-    "liveDemo": "https://srkrcse.com/",
-    "image": "/assets/Srkrcse.webp",
-    "category":"web"
-  },
-  {
-    "title": "React Cursor",
-    "date": "May 2025",
-    "description": "A modern collection of customizable and animated cursor packs built with Next.js, Tailwind CSS, and shadcn/ui — designed for developers who want to enhance their UI with creative cursor styles.",
-    "techStack": ["Next.js", "Tailwind CSS", "Shadcn UI"],
-    "sourceCode": "https://github.com/Tarunsaisrinivas/react-cursor",
-    "liveDemo": "https://reactcursor.tech/",
-    "image": "/assets/react-cursor.png",
     "category": "web"
-  },
-  {
-    "title": "Rock Paper Scissors Game using Hand Gesture Recognition",
-    "date": "June 2025",
-    "description": "Built a real-time Rock-Paper-Scissors game using React and TensorFlow.js with hand gesture recognition via webcam. Integrated AI-powered Handpose model for gesture classification and dynamic score tracking against a computer opponent.",
-    "techStack": ["React js", "CSS", "TensorFlow js", "Handpose Model"],
-    "sourceCode": "https://github.com/Tarunsaisrinivas/Rock-Paper-Scissors-Game",
-    "liveDemo": "https://rock-paper-scissors-tensor.vercel.app/",
-    "image": "/assets/rock-paper-scissors.jpg",
-    "category": "games"
-  },
-  {
-    "title": "Fruit Ninja Game with Index Finger Gesture",
-    "date": "July 2025",
-    "description": "Built a real-time Rock-Paper-Scissors game using React and TensorFlow.js with hand gesture recognition via webcam. Integrated AI-powered Handpose model for gesture classification and dynamic score tracking against a computer opponent.",
-    "techStack": ["HTML", "CSS","JavaScript", "TensorFlow js", "Handpose Model"],
-    "sourceCode": "https://github.com/Tarunsaisrinivas/Fruit-ninja ",
-    "liveDemo": "https://fruit-slice-ninja.vercel.app/",
-    "image": "/assets/fruit-ninja.jpeg",
-    "category": "games"
-  },
-  {
-    "title":"Hangman Game",
-    "date":"September 2025",
-    "description":"A classic Hangman game where players guess letters to reveal a hidden word before running out of attempts. Correct guesses uncover the word, while wrong ones draw the hangman figure. With an interactive keyboard and win/lose feedback, it’s a fun way to test vocabulary and problem-solving skills.",
-    "techStack":["React js","Tailwind CSS","Typescript"],
-    "sourceCode":"https://github.com/Tarunsaisrinivas/React-Hangman-TS",
-    "liveDemo":"https://react-hangman-ts.vercel.app/",
-    "image":"/assets/hangman.png",
-    "category":"games"
   }
 ]
