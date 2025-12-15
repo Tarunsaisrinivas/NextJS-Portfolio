@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import { Contact } from "./pages/Contact";
 import { FloatButton } from "antd";
 import Image from "next/image";
+import HeatMap from "./pages/HeatMap";
 
 const Page = () => {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ const Page = () => {
         <HeroSection />
         <SkillsMarquee />
         <Projects />
+        <HeatMap />
         <Contact />
       </div>
       <FloatButton.BackTop />
