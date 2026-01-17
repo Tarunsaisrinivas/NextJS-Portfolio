@@ -14,9 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Tarun Sai Srinivas | Frontend Developer & Open Source Contributor",
+  title: "Tarun Sai Srinivas | Full Stack Developer & Open Source Contributor",
   description:
-    "Tarun Sai Srinivas is a passionate frontend developer specializing in React.js, Next.js, and React Native. With expertise in building modern web and mobile applications, he creates seamless user experiences and responsive designs. His portfolio showcases projects, open-source contributions, and a proven track record in frontend development. Explore his work to learn more about his skills, career journey, and dedication to innovative digital solutions.",
+    "Tarun Sai Srinivas is a passionate Full Stack developer specializing in React.js, Next.js, and React Native. With expertise in building modern web and mobile applications, he creates seamless user experiences and responsive designs. His portfolio showcases projects, open-source contributions, and a proven track record in frontend development. Explore his work to learn more about his skills, career journey, and dedication to innovative digital solutions.",
   keywords: [
     "Tarun Sai Srinivas",
     "Frontend Developer",
@@ -37,7 +37,7 @@ export const metadata = {
   authors: [
     {
       name: "Tarun Sai Srinivas",
-      url: "https://tarunsaisrinivas.site",
+      url: "https://tarunsaisrinivas.dev",
     },
   ],
   creator: "Tarun Sai Srinivas",
@@ -52,11 +52,11 @@ export const metadata = {
     title: "Tarun Sai Srinivas | Frontend Developer Portfolio",
     description:
       "Explore the work and achievements of Tarun Sai Srinivas — a skilled frontend engineer with a strong foundation in React.js, Next.js, and web performance.",
-    url: "https://yourdomain.com",
+    url: "https://tarunsaisrinivas.dev",
     siteName: "Tarun Sai Srinivas Portfolio",
     images: [
       {
-        url: "/assets/web-dark.png", // Ensure you have this image
+        url: "/assets/web-dark.png", 
         width: 1200,
         height: 630,
         alt: "Tarun Sai Srinivas Portfolio Screenshot",
@@ -70,8 +70,8 @@ export const metadata = {
     title: "Tarun Sai Srinivas | Frontend Developer & UI Specialist",
     description:
       "A showcase of frontend expertise with React.js, Next.js, and modern web development best practices.",
-    creator: "Tarun Sai Srinivas", // Replace with actual handle if any
-    images: ["/assets/web-dark.png"], // Ensure you have this image
+    creator: "Tarun Sai Srinivas",
+    images: ["/assets/web-dark.png"], 
   },
 };
 
