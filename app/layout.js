@@ -44,9 +44,9 @@ export const metadata = {
   publisher: "Tarun Sai Srinivas",
   robots: "index, follow",
   icons: {
-    icon: "/assets/icon.png",
-    shortcut: "/assets/icon.png",
-    apple: "/assets/icon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   openGraph: {
     title: "Tarun Sai Srinivas | Frontend Developer Portfolio",
@@ -78,9 +78,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link rel="icon" href="/assets/icon.png" />
-      </head>
+      </head> */}
       <body
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
