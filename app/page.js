@@ -28,6 +28,13 @@ const Page = () => {
 
   return (
     <>
+    <h1 className="sr-only">
+        Tarun Sai Srinivas – Full Stack Developer
+      </h1>
+       <p className="sr-only">
+        Portfolio of Tarun Sai Srinivas, a Full Stack Developer specializing in
+        React, Next.js, and React Native.
+      </p>
       <div>
         <Navbar />
         <HeroSection />

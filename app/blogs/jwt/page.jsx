@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Image } from "antd";
-import Navbar from "@/app/containers/Navbar2";
+import Navbar from "@/app/containers/Navbar";
 import { FiCopy, FiCheck } from "react-icons/fi";
 const CopyButton = ({ textToCopy }) => {
   const [copied, setCopied] = useState(false);

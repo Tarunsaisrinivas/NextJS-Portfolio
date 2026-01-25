@@ -1,5 +1,5 @@
 "use client";
-import Navbar from "@/app/containers/Navbar2";
+import Navbar from "@/app/containers/Navbar";
 import React, { useState, useEffect, useRef } from "react";
 import { FiCopy, FiCheck } from "react-icons/fi";
 import GistEmbed from "@/components/ui/GistEmbed";

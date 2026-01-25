@@ -51,11 +51,11 @@ export function SkillsMarquee() {
     <>
       <h1
         id="skills"
-        className="text-center mt-0 relative pt-20  text-2xl font-mono font-bold mb-4"
+        className="text-center mt-0 relative pt-20 dark:text-white dark:bg-black bg-opacity-10 text-2xl font-mono font-bold py-4"
       >
         SKILLS
       </h1>
-      <div className="relative flex h-[300px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+      <div className="relative flex h-[300px] dark:bg-black bg-opacity-10 w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:15s]">
           {firstRow.map((skill) => (
             <SkillCard key={skill.name} {...skill} />

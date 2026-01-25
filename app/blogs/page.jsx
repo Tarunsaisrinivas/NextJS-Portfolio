@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import Navbar from "../containers/Navbar2";
+import Navbar from "../containers/Navbar";
 import SubscribeForm from "../containers/SubscribeForm";
 
 const blogData = [

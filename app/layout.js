@@ -57,12 +57,12 @@ export const metadata = {
   },
 
   openGraph: {
+    siteName: "Tarun Sai Srinivas",
     title:
       "Tarun Sai Srinivas - Full Stack Developer | React, Next.js",
     description:
       "Portfolio of Tarun Sai Srinivas showcasing React, Next.js, and modern web development projects.",
     url: "https://tarunsaisrinivas.dev",
-    siteName: "Tarun Sai Srinivas Portfolio",
     images: [
       {
         url: "/assets/web-dark.png",
@@ -85,7 +85,15 @@ export const metadata = {
   },
 
   other: {
-    "application/ld+json": JSON.stringify({
+  "application/ld+json": JSON.stringify([
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Tarun Sai Srinivas",
+      alternateName: "Tarun Sai Srinivas Portfolio",
+      url: "https://tarunsaisrinivas.dev"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "Person",
       name: "Tarun Sai Srinivas",
@@ -95,10 +103,12 @@ export const metadata = {
       sameAs: [
         "https://github.com/tarunsaisrinivas",
         "https://linkedin.com/in/tarun-sai-srinivas",
-        "https://twitter.com/https://x.com/tarunsaisriniv1",
-      ],
-    }),
-  },
+        "https://x.com/tarunsaisriniv1"
+      ]
+    }
+  ]),
+},
+
 };
 
 export default function RootLayout({ children }) {

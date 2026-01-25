@@ -7,7 +7,7 @@ import ShimmerButton from "@/components/ui/shimmer-button"; // Import the Shimme
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col  md:flex-row md:min-h-fit min-h-screen bg-transparent text-center cursor-custom-black md:text-left p-8">
+    <div className="flex flex-col  md:flex-row md:min-h-fit min-h-screen bg-transparent dark:bg-black bg-opacity-10 text-center cursor-custom-black md:text-left p-8">
       {/* <Globe /> */}
 
       <div data-aos="fade-up" className="md:w-1/2 mt-8 md:mt-0 h-auto">

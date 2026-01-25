@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Image } from "antd";
-import Navbar from "../../containers/Navbar2";
+import Navbar from "../../containers/Navbar";
 
 const TailwindWatchBlog = () => {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Navbar from "@/app/containers/Navbar2";
+import Navbar from "@/app/containers/Navbar";
 import { FiCheck, FiCopy } from "react-icons/fi";
 
 const CopyButton = ({ textToCopy }) => {
